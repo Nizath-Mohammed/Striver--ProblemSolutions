@@ -6,7 +6,7 @@ class Solution {
             ans.add(root.val);
         }
     }
-    ublic List<Integer> postorderTraversal(TreeNode root) {
+    public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
         postOrder(root , ans);
         return ans;
