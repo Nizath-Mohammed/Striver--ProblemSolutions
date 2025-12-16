@@ -1,14 +1,14 @@
-// class Solution {
-//     public void preOrder(TreeNode root , List<Integer> ans ){
-//         if(root!=null){
-//             ans.add(root.val);
-//             preOrder(root.left , ans);
-//             preOrder(root.right , ans);
+class Solution {
+    public void preOrder(TreeNode root , List<Integer> ans ){
+        if(root!=null){
+            ans.add(root.val);
+            preOrder(root.left , ans);
+            preOrder(root.right , ans);
         
-//     }
-//     public List<Integer> preorderTraversal(TreeNode root) {
-//         List<Integer> ans = new ArrayList<>();
-//         preOrder(root , ans);
-//         return ans;
-//     }
-// }
+    }
+    public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> ans = new ArrayList<>();
+        preOrder(root , ans);
+        return ans;
+    }
+}
