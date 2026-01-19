@@ -29,7 +29,7 @@ Repository for Striver--ProblemSolutions.
 - List key features here.
 
 ## Tech Stack
-- List primary technologies used.
+- Java
 
 ## Getting Started
 Prerequisites:
@@ -40,13 +40,12 @@ Prerequisites:
 `ash
 git clone https://github.com/Nizath-Mohammed/Striver--ProblemSolutions.git
 cd Striver--ProblemSolutions
-# add setup steps here
 `
 
+
+
 ## Usage
-`ash
-# add usage commands here
-`
+
 
 ## Scripts
 - Document useful scripts or commands.
